@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
+  <script src="script.js" type="text/javascript">
+  </script>   
 </head>
 <body>
   <form class="" action="index.html" method="post">
@@ -37,9 +39,17 @@
     <br> 
     <textarea name="yourMessage" cols="30" rows="10"></textarea>
     <br> 
-    <input type="submit">  
+    <input type="submit" onclick="clickme()">  
   </form>
 
-
+  <div>
+    <label>Your Good Name</label>
+    <input type="text" placeholder="Your Good Name" id="name"/>
+    <input type="date" id="dob">  
+    <button onclick="viewdate()"> Submit</button>
+    <button onclick="cleardata()"> Clear</button>
+    <h2 id="demoname"></h2>    
+    <h2 id="demodate"></h2>    
+  </div>
 </body>
 </html>
