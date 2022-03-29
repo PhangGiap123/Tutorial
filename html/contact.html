@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <script src="/javascript/script.js" type="text/javascript">
+  </script>   
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <form class="" action="index.html" method="post">
+    <label>Your Name :</label>
+    <input type="text">
+    <input type="color">
+    <input type="checkbox">
+    <input type="submit">
+    <input type="color">      
+    <input type="password">
+    <input type="file">
+    <input type="date">
+    <input type="datetime">
+    <input type="radio">
+    <input type="range">
+  </form>
+  <br>
+  <hr>
+  <br>
+  <form action="mailto:pgong@mechpro.com.my" method="post" enctype="text/plain">
+    <label>Your Name: </label>
+    <input type="text" name="yourName" id="">
+    <br> 
+    <br>  
+    <label>Your Email: </label>
+    <input type="email" name="yourEmail" id="">
+    <br> 
+    <br>
+    <label>Your Message:</label>
+    <br> 
+    <textarea name="yourMessage" cols="30" rows="10"></textarea>
+    <br> 
+    <input type="submit" onclick="clickme()">  
+  </form>
+
+  <div>
+    <label>Your Good Name</label>
+    <input type="text" placeholder="Your Good Name" id="name"/>
+    <input type="date" id="dob">  
+    <button onclick="viewdate()"> Submit</button>
+    <button onclick="cleardata()"> Clear</button>
+    <h2 id="demoname"></h2>    
+    <h2 id="demodate"></h2>    
+  </div>
+</body>
+</html>
