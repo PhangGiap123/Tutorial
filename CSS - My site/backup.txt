@@ -1,7 +1,0 @@
-
-  
-  <img src="/cloud.png" alt="cloud-img">
-    <h1>I'm Phang Giap</h1>
-    <p>a software development engineer</p>
-    <img src="/cloud.png" alt="cloud-img">
-    <img src="/mountain.png" alt="cloud-img">

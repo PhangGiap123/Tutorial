@@ -4,6 +4,10 @@ body{
   font-family: 'Courier New' , monospace;
 }
 
+h1{
+  font-size: 3rem;
+}
+
 .top-container{
   background-color: #F4FCD9;
   border: 5px;
